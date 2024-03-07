@@ -19,7 +19,7 @@ public class FirstTest {
 		WebDriverManager.chromedriver().setup();
 		options.addArguments("--remote-allow-orgins=*");
 		options.addArguments("--headless");
-		options.addArguments("--disable-dev-shm-usage");
+		// options.addArguments("--disable-dev-shm-usage");
 		options.addArguments("--ignore-ssl-errors=yes");
 		options.addArguments("--ignore-certificate-errors");
 		WebDriver driver = new ChromeDriver(options);
@@ -46,7 +46,7 @@ public class FirstTest {
 		WebDriverManager.chromedriver().setup();
 		options.addArguments("--remote-allow-orgins=*");
 		options.addArguments("--headless");
-		options.addArguments("--disable-dev-shm-usage");
+		// options.addArguments("--disable-dev-shm-usage");
 		options.addArguments("--ignore-ssl-errors=yes");
 		options.addArguments("--ignore-certificate-errors");
 		WebDriver driver = new ChromeDriver(options);

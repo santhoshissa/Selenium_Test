@@ -23,8 +23,8 @@
 		    <artifactId>testng</artifactId>
 		    <version>7.7.1</version>
 		    <scope>test</scope>
-		</dependency>
-  </dependencies>  -->
+		</dependency>  -->
+  </dependencies> 
   
 <!--  <build>
 	  <plugins>

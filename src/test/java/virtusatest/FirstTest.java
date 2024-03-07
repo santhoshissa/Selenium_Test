@@ -19,9 +19,13 @@ public class FirstTest {
 		WebDriverManager.chromedriver().setup();
 		options.addArguments("--remote-allow-orgins=*");
 		options.addArguments("--headless");
-		// options.addArguments("--disable-dev-shm-usage");
+		options.addArguments("--disable-dev-shm-usage");
 		options.addArguments("--ignore-ssl-errors=yes");
 		options.addArguments("--ignore-certificate-errors");
+		options.setExperimentalOption("prefs", chromePrefs);
+		options.addArguments("--no-sandbox");
+		options.addArguments("--disable-extensions");
+		options.addArguments("--disable-gpu");
 		WebDriver driver = new ChromeDriver(options);
 		
 		System.out.println("Launch Google");
@@ -46,9 +50,13 @@ public class FirstTest {
 		WebDriverManager.chromedriver().setup();
 		options.addArguments("--remote-allow-orgins=*");
 		options.addArguments("--headless");
-		// options.addArguments("--disable-dev-shm-usage");
+		options.addArguments("--disable-dev-shm-usage");
 		options.addArguments("--ignore-ssl-errors=yes");
 		options.addArguments("--ignore-certificate-errors");
+		options.setExperimentalOption("prefs", chromePrefs);
+		options.addArguments("--no-sandbox");
+		options.addArguments("--disable-extensions");
+		options.addArguments("--disable-gpu");
 		WebDriver driver = new ChromeDriver(options);
 		
 		System.out.println("Launch Google");

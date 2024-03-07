@@ -19,9 +19,9 @@ public class FirstTest {
 		WebDriverManager.chromedriver().setup();
 		options.addArguments("--remote-allow-orgins=*");
 		options.addArguments("--headless");
-		options.add_argument('--disable-dev-shm-usage')
-		options.add_argument('--ignore-ssl-errors=yes')
-		options.add_argument('--ignore-certificate-errors')
+		options.addArguments("--disable-dev-shm-usage");
+		options.addArguments("--ignore-ssl-errors=yes");
+		options.addArguments("--ignore-certificate-errors");
 		WebDriver driver = new ChromeDriver(options);
 		
 		System.out.println("Launch Google");
@@ -46,9 +46,9 @@ public class FirstTest {
 		WebDriverManager.chromedriver().setup();
 		options.addArguments("--remote-allow-orgins=*");
 		options.addArguments("--headless");
-		options.add_argument('--disable-dev-shm-usage')
-		options.add_argument('--ignore-ssl-errors=yes')
-		options.add_argument('--ignore-certificate-errors')
+		options.addArguments("--disable-dev-shm-usage");
+		options.addArguments("--ignore-ssl-errors=yes");
+		options.addArguments("--ignore-certificate-errors");
 		WebDriver driver = new ChromeDriver(options);
 		
 		System.out.println("Launch Google");

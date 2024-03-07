@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: virtusatest.FirstTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 22.552 sec <<< FAILURE!
+secondTestCase(virtusatest.FirstTest)  Time elapsed: 6.282 sec  <<< FAILURE!
+java.lang.AssertionError: expected [Google] but found [Googles]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at virtusatest.FirstTest.secondTestCase(FirstTest.java:49)
+

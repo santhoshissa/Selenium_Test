@@ -22,7 +22,7 @@ public class FirstTest {
 		options.addArguments("--disable-dev-shm-usage");
 		options.addArguments("--ignore-ssl-errors=yes");
 		options.addArguments("--ignore-certificate-errors");
-		options.setExperimentalOption("prefs", chromePrefs);
+		// options.setExperimentalOption("prefs", chromePrefs);
 		options.addArguments("--no-sandbox");
 		options.addArguments("--disable-extensions");
 		options.addArguments("--disable-gpu");
@@ -53,7 +53,7 @@ public class FirstTest {
 		options.addArguments("--disable-dev-shm-usage");
 		options.addArguments("--ignore-ssl-errors=yes");
 		options.addArguments("--ignore-certificate-errors");
-		options.setExperimentalOption("prefs", chromePrefs);
+		// options.setExperimentalOption("prefs", chromePrefs);
 		options.addArguments("--no-sandbox");
 		options.addArguments("--disable-extensions");
 		options.addArguments("--disable-gpu");

@@ -18,15 +18,15 @@
 		    <version>5.7.0</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
-		<dependency>
+	<!--	<dependency>
 		    <groupId>org.testng</groupId>
 		    <artifactId>testng</artifactId>
 		    <version>7.7.1</version>
 		    <scope>test</scope>
 		</dependency>
-  </dependencies>
+  </dependencies>  -->
   
-  <build>
+<!--  <build>
 	  <plugins>
 		  <plugin>
 			  <groupId>org.apache.maven.plugins</groupId>
@@ -37,7 +37,7 @@
 			  </configuration>
 		  </plugin>
 	  </plugins>
-  </build>
+  </build> -->
   
 
 </project>

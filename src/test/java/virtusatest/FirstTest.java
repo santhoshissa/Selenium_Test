@@ -62,7 +62,7 @@ public class FirstTest {
 		System.out.println("Launch Google");
 		
 		driver.get("https://www.google.com/");
-		Assert.assertEquals("Google", driver.getTitle());
+		Assert.assertEquals("Googles", driver.getTitle());
 		
 		WebElement element=driver.findElement(By.name("q"));
 		

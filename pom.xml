@@ -5,7 +5,7 @@
   <version>0.0.1-SNAPSHOT</version>
 
 <properties>
-        <harnessArgLine>clean test</harnessArgLine>
+        <harnessArgLine></harnessArgLine>
 </properties>
 	
   <dependencies>

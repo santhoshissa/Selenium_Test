@@ -26,9 +26,7 @@
 		</dependency>  
   </dependencies> 
 
-	<properties>
-        <harnessArgLine></harnessArgLine>
-</properties>
+	
   
  <build>
     <plugins>
@@ -42,6 +40,9 @@
 		    <release>11</release>
             </configuration>
         </plugin>
+	    <properties>
+        <harnessArgLine></harnessArgLine>
+</properties>
 	    <plugin>
     <groupId>org.apache.maven.plugins</groupId>
     <artifactId>maven-surefire-plugin</artifactId>

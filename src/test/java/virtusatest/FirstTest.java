@@ -93,7 +93,7 @@ public class FirstTest {
 		System.out.println("Launching Connect Google");
 		
 		driver.get("https://dev.connect.nonprod.gcpdnb.net/idaas-login");
-		Assert.assertEquals("D&B Connect", driver.getTitle());
+		Assert.assertEquals("D&B Connects", driver.getTitle());
 		
 		
 		// WebElement element=driver.findElement(By.name("q"));

@@ -3,9 +3,9 @@
   <groupId>virtusa</groupId>
   <artifactId>virtusa</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-
-
-	
+<properties>
+	<java.version>1.8</java.version>
+</properties>	
   <dependencies>
 	  <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 		<dependency>
@@ -30,7 +30,7 @@
 
 	
   
- <build>
+<!--  <build>
     <plugins>
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
@@ -45,7 +45,22 @@
 	  
 	   
     </plugins>
-</build> 
+</build>  -->
+
+	<build>
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-compiler-plugin</artifactId>
+					<configuration>
+						<source>${java.version}</source>
+						<target>${java.version}</target>
+					</configuration>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+	</build>
   
 
 </project>

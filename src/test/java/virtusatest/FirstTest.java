@@ -79,13 +79,14 @@ public class FirstTest {
 		
 		ChromeOptions options = new ChromeOptions();
 		WebDriverManager.chromedriver().setup();
+		options.addArguments("--no-sandbox");
 		options.addArguments("--remote-allow-orgins=*");
 		options.addArguments("--headless");
 		options.addArguments("--disable-dev-shm-usage");
 		options.addArguments("--ignore-ssl-errors=yes");
 		options.addArguments("--ignore-certificate-errors");
 		// options.setExperimentalOption("prefs", chromePrefs);
-		options.addArguments("--no-sandbox");
+		
 		options.addArguments("--disable-extensions");
 		options.addArguments("--disable-gpu");
 		options.addArguments("--window-size=1920,1080");

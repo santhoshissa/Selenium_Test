@@ -88,6 +88,9 @@ public class FirstTest {
 		options.addArguments("--no-sandbox");
 		options.addArguments("--disable-extensions");
 		options.addArguments("--disable-gpu");
+		options.addArguments("--window-size=1920,1080");
+		options.addArguments("--remote-debugging-port=9222");
+		options.addArguments("--disable-software-rasterizer");
 		WebDriver driver = new ChromeDriver(options);
 		
 		System.out.println("Launching Connect Google");

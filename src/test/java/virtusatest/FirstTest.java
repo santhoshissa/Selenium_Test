@@ -96,8 +96,8 @@ public class FirstTest {
 		
 		System.out.println("Launching Connect Google");
 		
-		driver.get("https://internal-stack-a-lpi-468550822.us-east-1.elb.amazonaws.com/");
-		// Assert.assertEquals("D&B Connect", driver.getTitle());
+		driver.get("https://www.google.com/");
+		Assert.assertEquals("D&B Connect", driver.getTitle());
 		
 		
 		// WebElement element=driver.findElement(By.name("q"));

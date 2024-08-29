@@ -88,6 +88,7 @@ public class FirstTest {
 		options.addArguments("--no-sandbox");
 		options.addArguments("--disable-extensions");
 		options.addArguments("--disable-gpu");
+		options.addArguments("--remote-debugging-port=8282");
 		WebDriver driver = new ChromeDriver(options);
 		// WebDriver driver = new ChromeDriver(options);
 

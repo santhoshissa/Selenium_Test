@@ -117,7 +117,7 @@ public class FirstTest {
 		Assert.assertEquals("dnb-stg - Sign In", driver.getTitle());
 		
 		
-		WebElement element=driver.findElement(By.name("identifier"));
+		WebElement element=driver.findElement(By.id("input28"));
 		
 		element.sendKeys("dcpqa_auto_ba01@dnb.mailinator.com");
 		

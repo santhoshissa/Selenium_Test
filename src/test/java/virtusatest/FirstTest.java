@@ -88,7 +88,7 @@ public class FirstTest {
 		options.addArguments("--no-sandbox");
 		options.addArguments("--disable-extensions");
 		options.addArguments("--disable-gpu");
-		options.addArguments("--remote-debugging-port=4444");
+		options.addArguments("--remote-debugging-port=8777");
 
 		System.setProperty("webdriver.chrome.whitelistedIps", "");
 		

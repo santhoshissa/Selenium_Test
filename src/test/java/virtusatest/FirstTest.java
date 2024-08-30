@@ -101,6 +101,18 @@ public class FirstTest {
 		
 		System.out.println("Launching Connect Google");
 		
+		// driver.get("https://dev.connect.nonprod.gcpdnb.net/");
+		// Assert.assertEquals("dnb-stg - Sign In", driver.getTitle());
+		
+		
+		// WebElement element=driver.findElement(By.name("identifier"));
+		
+		// element.sendKeys("dcpqa_auto_ba01@dnb.mailinator.com");
+
+		// WebElement button = driver.findElement(By.xpath("//*[@id='form20']/div[2]/input")).click();
+		
+		// button.click();
+
 		driver.get("https://dev.connect.nonprod.gcpdnb.net/");
 		Assert.assertEquals("dnb-stg - Sign In", driver.getTitle());
 		
@@ -108,8 +120,8 @@ public class FirstTest {
 		WebElement element=driver.findElement(By.name("identifier"));
 		
 		element.sendKeys("dcpqa_auto_ba01@dnb.mailinator.com");
-
-		WebElement button = driver.findElement(By.xpath("//*[@id='form20']/div[2]/input")).click();
+		
+		WebElement button = driver.findElement(By.xpath("//*[@id='form20']/div[2]/input"));
 		
 		button.click();
 		

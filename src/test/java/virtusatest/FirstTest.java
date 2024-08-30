@@ -90,7 +90,7 @@ public class FirstTest {
 		options.addArguments("--disable-gpu");
 		options.addArguments("--remote-debugging-port=8777");
 
-		// System.setProperty("webdriver.chrome.whitelistedIps", "");
+		System.setProperty("webdriver.chrome.whitelistedIps", "");
 		
 		options.addArguments("--window-size=1920,1080");
 		options.addArguments("--disable-software-rasterizer");

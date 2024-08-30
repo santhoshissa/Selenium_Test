@@ -117,13 +117,13 @@ public class FirstTest {
 		Assert.assertEquals("dnb-stg - Sign In", driver.getTitle());
 		
 		
-		WebElement element=driver.findElement(By.xpath("//*[@id='input28']"));
+		// WebElement element=driver.findElement(By.id("input28"));
 		
-		element.sendKeys("dcpqa_auto_ba01@dnb.mailinator.com");
+		// element.sendKeys("dcpqa_auto_ba01@dnb.mailinator.com");
 		
-		WebElement button = driver.findElement(By.xpath("//*[@id='form20']/div[2]/input"));
+		// WebElement button = driver.findElement(By.xpath("//*[@id='form20']/div[2]/input"));
 		
-		button.click();
+		// button.click();
 		
 
 		// WebElement element=driver.findElement(By.name("credentials.passcode"));

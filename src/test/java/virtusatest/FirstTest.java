@@ -89,6 +89,11 @@ public class FirstTest {
 		options.addArguments("--disable-extensions");
 		options.addArguments("--disable-gpu");
 		options.addArguments("--remote-debugging-port=8282");
+
+		System.setProperty("webdriver.chrome.whitelistedIps", "");
+		
+		options.addArguments("--window-size=1920,1080");
+		options.addArguments("--disable-software-rasterizer");
 		WebDriver driver = new ChromeDriver(options);
 		// WebDriver driver = new ChromeDriver(options);
 

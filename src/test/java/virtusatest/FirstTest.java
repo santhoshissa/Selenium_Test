@@ -90,7 +90,7 @@ public class FirstTest {
 		options.addArguments("--disable-gpu");
 		options.addArguments("--remote-debugging-port=8777");
 
-		System.setProperty("webdriver.chrome.whitelistedIps", "");
+		// System.setProperty("webdriver.chrome.whitelistedIps", "");
 		
 		options.addArguments("--window-size=1920,1080");
 		options.addArguments("--disable-software-rasterizer");
@@ -102,7 +102,7 @@ public class FirstTest {
 		System.out.println("Launching Connect Google");
 		
 		driver.get("https://www.google.com/");
-		Assert.assertEquals("D&B Connect", driver.getTitle());
+		Assert.assertEquals("Google", driver.getTitle());
 		
 		
 		// WebElement element=driver.findElement(By.name("q"));

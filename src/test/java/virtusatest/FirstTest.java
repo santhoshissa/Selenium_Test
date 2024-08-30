@@ -105,9 +105,26 @@ public class FirstTest {
 		Assert.assertEquals("dnb-stg - Sign In", driver.getTitle());
 		
 		
-		// WebElement element=driver.findElement(By.name("q"));
+		WebElement element=driver.findElement(By.name("identifier"));
 		
-		// element.sendKeys("Selenium Java");
+		element.sendKeys("dcpqa_auto_ba01@dnb.mailinator.com");
+
+		WebElement button = driver.findElement(By.xpath('//*[@id="form20"]/div[2]/input')).click();
+		
+		button.click();
+		
+
+		WebElement element=driver.findElement(By.name("credentials.passcode"));
+		
+		element.sendKeys("dcpqa_auto_ba01@dnb.mailinator.com");
+
+		WebElement buttons = driver.findElement(By.xpath('//*[@id="form51"]/div[2]/input')).click();
+		
+		buttons.click();
+		
+		WebElement buttonss = driver.findElement(By.xpath('//*[@id="root"]/div/div[2]/div/div/div/div[2]/div[3]/a/span')).click();
+		
+		buttonss.click();
 		
 		// element.submit();
 		// Assert.assertEquals("Selenium Java - Google Search", driver.getTitle());

@@ -101,8 +101,8 @@ public class FirstTest {
 		
 		System.out.println("Launching Connect Google");
 		
-		driver.get("https://www.google.com/");
-		Assert.assertEquals("Google", driver.getTitle());
+		driver.get("https://dev.connect.nonprod.gcpdnb.net/");
+		Assert.assertEquals("dnb-stg - Sign In", driver.getTitle());
 		
 		
 		// WebElement element=driver.findElement(By.name("q"));

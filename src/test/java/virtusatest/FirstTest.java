@@ -109,7 +109,7 @@ public class FirstTest {
 		
 		element.sendKeys("dcpqa_auto_ba01@dnb.mailinator.com");
 
-		WebElement button = driver.findElement(By.xpath('//*[@id="form20"]/div[2]/input')).click();
+		WebElement button = driver.findElement(By.xpath("//*[@id='form20']/div[2]/input")).click();
 		
 		button.click();
 		

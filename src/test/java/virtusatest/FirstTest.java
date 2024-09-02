@@ -107,8 +107,8 @@ public class FirstTest {
 		    // driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div[1]/div[2]/button")).click();
 		    // driver.findElement(By.cssSelector("_button_1r013_215")).click();
 		element = driver.find_element_by_class_name('_button_1r013_215');
-		driver.execute_script("arguments[0].scrollIntoView();", element);
-		driver.execute_script("arguments[0].click();", element);
+		driver.execute_script("arguments[0].scrollIntoView()", element);
+		driver.execute_script("arguments[0].click()", element);
 		
 		
 		// driver.get("https://dev.connect.nonprod.gcpdnb.net/");

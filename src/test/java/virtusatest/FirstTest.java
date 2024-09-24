@@ -104,13 +104,16 @@ public class FirstTest {
 
 		WebElement CookieButton = driver.findElement(By.id("truste-consent-button"));
 	        CookieButton.click();
+		System.out.println("Clicked Cookie Button");
 
 		WebElement usernameField = driver.findElement(By.id("username"));
 	        usernameField.sendKeys("fulailm@dnb.com");
+		System.out.println("Entered Username");
 	
 	        // Locate the password field and enter the password
 	        WebElement passwordField = driver.findElement(By.id("password"));
 	        passwordField.sendKeys("!QAZ2wsx34");
+		System.out.println("Entered Password");
 	
 	        // Locate the 'Remember my username' checkbox and click it
 	       // WebElement rememberCheckbox = driver.findElement(By.id("cb-rememberUsername"));
@@ -119,6 +122,7 @@ public class FirstTest {
 	        // Locate the continue button and click it
 	        WebElement continueButton = driver.findElement(By.cssSelector("button._button_1r013_215"));
 	        continueButton.click();
+		System.out.println("Clicked Continue Button");
 	        
 	    // driver.manage().window().setSize(new Dimension(1226, 741));
 		    // driver.findElement(By.id("username")).sendKeys("fulailm@dnb.com");

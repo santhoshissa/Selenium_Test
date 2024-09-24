@@ -101,9 +101,24 @@ public class FirstTest {
 		
 		System.out.println("Launching Connect Google");
 		driver.get("https://dev.connect.nonprod.gcpdnb.net/idaas-login");
+
+		WebElement usernameField = driver.findElement(By.id("username"));
+	        usernameField.sendKeys("fulailm@dnb.com");
+	
+	        // Locate the password field and enter the password
+	        WebElement passwordField = driver.findElement(By.id("password"));
+	        passwordField.sendKeys("!QAZ2wsx34");
+	
+	        // Locate the 'Remember my username' checkbox and click it
+	        WebElement rememberCheckbox = driver.findElement(By.id("cb-rememberUsername"));
+	        rememberCheckbox.click();
+	
+	        // Locate the continue button and click it
+	        WebElement continueButton = driver.findElement(By.cssSelector("button._button_1r013_215"));
+	        continueButton.click();
 	    // driver.manage().window().setSize(new Dimension(1226, 741));
-		    driver.findElement(By.id("username")).sendKeys("fulailm@dnb.com");
-		    driver.findElement(By.id("password")).sendKeys("!QAZ2wsx34");
+		    // driver.findElement(By.id("username")).sendKeys("fulailm@dnb.com");
+		    // driver.findElement(By.id("password")).sendKeys("!QAZ2wsx34");
 		    // driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div[1]/div[2]/button")).click();
 
 		

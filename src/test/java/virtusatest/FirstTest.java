@@ -104,7 +104,7 @@ public class FirstTest {
 	    // driver.manage().window().setSize(new Dimension(1226, 741));
 		    driver.findElement(By.id("username")).sendKeys("fulailm@dnb.com");
 		    driver.findElement(By.id("password")).sendKeys("!QAZ2wsx34");
-		    driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div[1]/div[2]/button")).click();
+		    // driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div[1]/div[2]/button")).click();
 
 		
 		

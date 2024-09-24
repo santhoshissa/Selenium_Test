@@ -102,6 +102,9 @@ public class FirstTest {
 		System.out.println("Launching Connect Google");
 		driver.get("https://dev.connect.nonprod.gcpdnb.net/idaas-login");
 
+		WebElement CookieButton = driver.findElement(By.id("truste-consent-button"));
+	        CookieButton.click();
+
 		WebElement usernameField = driver.findElement(By.id("username"));
 	        usernameField.sendKeys("fulailm@dnb.com");
 	
@@ -116,6 +119,7 @@ public class FirstTest {
 	        // Locate the continue button and click it
 	        WebElement continueButton = driver.findElement(By.cssSelector("button._button_1r013_215"));
 	        continueButton.click();
+	        
 	    // driver.manage().window().setSize(new Dimension(1226, 741));
 		    // driver.findElement(By.id("username")).sendKeys("fulailm@dnb.com");
 		    // driver.findElement(By.id("password")).sendKeys("!QAZ2wsx34");

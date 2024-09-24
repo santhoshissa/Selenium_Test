@@ -110,8 +110,8 @@ public class FirstTest {
 	        passwordField.sendKeys("!QAZ2wsx34");
 	
 	        // Locate the 'Remember my username' checkbox and click it
-	        WebElement rememberCheckbox = driver.findElement(By.id("cb-rememberUsername"));
-	        rememberCheckbox.click();
+	       // WebElement rememberCheckbox = driver.findElement(By.id("cb-rememberUsername"));
+	       // rememberCheckbox.click();
 	
 	        // Locate the continue button and click it
 	        WebElement continueButton = driver.findElement(By.cssSelector("button._button_1r013_215"));

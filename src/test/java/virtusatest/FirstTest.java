@@ -102,8 +102,8 @@ public class FirstTest {
 		System.out.println("Launching Connect Google");
 		driver.get("https://dev.connect.nonprod.gcpdnb.net/idaas-login");
 	    // driver.manage().window().setSize(new Dimension(1226, 741));
-		    driver.findElement(By.id("username")).sendKeys("dcpqa_auto_ba01@dnb.mailinator.com");
-		    driver.findElement(By.id("password")).sendKeys("Testing0304dcp!");
+		    driver.findElement(By.id("username")).sendKeys("fulailm@dnb.com");
+		    driver.findElement(By.id("password")).sendKeys("!QAZ2wsx34");
 		    driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div[1]/div[2]/button")).click();
 		    driver.findElement(By.cssSelector("_button_1r013_215")).click();
 		// element = driver.find_element_by_class_name('_button_1r013_215');
